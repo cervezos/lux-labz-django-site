@@ -1,2 +1,24 @@
+## Docker Commands
+
+# Build the container
 docker build --tag python-django .
+
+# Run the container
 docker run --publish 8000:8000 python-django
+
+## Git Commands
+
+# Clone the repo
+git clone https://github.com/cervezos/lux-labz-django-site.git
+
+# View changes
+git status
+
+# Add changes
+git add .
+
+# Commit changes
+git commit -a -m "YOUR COMMENT"
+
+# Push changes to repo
+git push
