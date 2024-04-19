@@ -8,6 +8,10 @@ docker run --publish 8000:8000 python-django
 
 ## Git Commands
 
+# Git config
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
 # Clone the repo
 git clone https://github.com/cervezos/lux-labz-django-site.git
 
