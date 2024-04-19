@@ -8,3 +8,6 @@ def about(request):
 
 def donate(request):
     return render(request, 'donate.html')
+
+def calendar(request):
+    return render(request, 'calendar.html')
