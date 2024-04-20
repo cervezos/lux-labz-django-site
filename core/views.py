@@ -11,3 +11,18 @@ def donate(request):
 
 def calendar(request):
     return render(request, 'calendar.html')
+
+def facilities(request):
+    return render(request, 'facilities.html')
+
+def outreach(request):
+    return render(request, 'outreach.html')
+
+def curriculum(request):
+    return render(request, 'curriculum.html')
+
+def infrastructure(request):
+    return render(request, 'infrastructure.html')
+
+def tools(request):
+    return render(request, 'tools.html')

@@ -1,0 +1,39 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'starter-template.css' %}" rel="stylesheet">
+
+    <title>Lux Labz</title>
+  </head>
+  <body>
+
+    {% include "header.html" %}
+
+      <main role="main" class="container">
+  
+        <div class="starter-template">
+          <p class="lead">
+            Outreach - Coming Soon
+        </p>
+	<p>
+	Check back soon for more information on Lux Labz outreach activies.
+        </div>
+  
+      </main><!-- /.container -->
+
+  </body>
+</html>
